@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUSDS - Rajshahi University School Debate Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <h1>Loading...</h1>
+    </div>
+
+    <!-- Floating Navigation Bar -->
+    <nav>
+        <div class="logo-container">
+            <img src="images/Logo.png" alt="RUSDS Logo" class="logo">
+            <span class="club-name">Rajshahi University School Debate Society - RUSDS</span>
+        </div>
+        <ul>
+            <li><a href="Index.html" class="active">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Event.html">Events</a></li>
+            <li><a href="Teams.html">Teams</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Banner Section -->
+    <section class="banner">
+        <h1>Welcome to RUSDS</h1>
+        <p>Empowering Voices, Shaping Perspectives</p>
+    </section>
+
+    <!-- Event Details -->
+    <section class="event-details">
+        <div class="event-box">
+            <div class="live-badge">
+                <span class="live-text">Upcoming</span>
+            </div>
+            <img src="images/Print Banner-ICDC1.0.png" alt="Event Banner" class="event-banner">
+            <h2>Inter Class Debate Championship 1.0</h2>
+            <p><strong>Location:</strong> Rajshahi University School</p>
+            <p><strong>Date:</strong> January 8 - 9, 2024</p>
+            <p><strong>Fee:</strong> 250 Taka / Team</p>
+            <a href="event_register.html" target="_blank" class="register-btn">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Floating Box -->
+    <div class="floating-box">
+        <h3>About RUSDS</h3>
+        <p>Welcome to the Rajshahi University School Debating Society (RUSDS), a platform where young minds come together to debate, discuss, and develop critical thinking and public speaking skills.</p>
+        <a href="About Us.html" class="learn-more-btn">Learn More</a>
+    </div>
+
+    <!-- Teams Overview -->
+    <section class="team-overview">
+        <h2> RUSDS Teams </h2>
+        <div class="team-card">
+            <img src="images/AA1.jpg" alt="Team 1" class="team-img">
+            <div class="team-details">
+                <h3>Argument Architects</h3>
+                <p>Team Participations in Events: 1</p>
+                <p>Number of Team Achievements: 1</p>
+                <p>Number of Personal Achievements: 4</p>
+                <p>Best Achievement: Runners up in INDRR Day 2024 Debate (Rajshahi Division)</p>
+                <a href="team1-profile.html" class="details-btn">More Details</a>
+            </div>
+        </div>
+    </section>
+
+         <!-- Executive Members -->
+         <section class="executives">
+            <h2>Meet Our Executive Members</h2>
+    
+            <div class="executive-card">
+                <img src="images/Muhib.jpg" alt="Exec Member 1" class="exec-img">
+                <div class="exec-details">
+                    <h3>Muhtasimul Haque Muhib</h3>
+                    <p>President, SSC26</p>
+                    <p>Contact: muhtasim@example.com</p>
+                </div>
+            </div>
+    
+            <div class="executive-card">
+                <img src="images/Anan.jpg" alt="Exec Member 2" class="exec-img">
+                <div class="exec-details">
+                    <h3>Tanjim Cynthia Anan</h3>
+                    <p>Vice President, SSC26</p>
+                    <p>Contact: tanjim@example.com</p>
+                </div>
+            </div>
+    
+            <div class="executive-card">
+                <img src="images/Tahmid.png" alt="Exec Member 3" class="exec-img">
+                <div class="exec-details">
+                    <h3>Tahmid Rashid</h3>
+                    <p>Vice President, SSC26</p>
+                    <p>Contact: tahmid@example.com</p>
+                </div>
+            </div>
+            <div class="executive-card">
+                <img src="images/Progga.jpg" alt="Exec Member 4" class="exec-img">
+                <div class="exec-details">
+                    <h3>Progga Biswas</h3>
+                    <p>General Secretary, SSC26</p>
+                    <p>Contact: progga@example.com</p>
+                </div>
+            </div>
+            <div class="executive-card">
+                <img src="images/Aditya.jpg" alt="Exec Member 5" class="exec-img">
+                <div class="exec-details">
+                    <h3>Aditya Banarjee</h3>
+                    <p>General Secretary, SSC27</p>
+                    <p>Contact: aditya@example.com</p>
+                </div>
+            </div>
+            <div class="executive-card">
+                <img src="images/Shafi.jpg" alt="Exec Member 6" class="exec-img">
+                <div class="exec-details">
+                    <h3>Anjum Al Shafi</h3>
+                    <p>Secretary of Publications, SSC26</p>
+                    <p>Contact: shafi@example.com</p>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Rajshahi University School Debating Society | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Loading Animation Script
+        window.addEventListener('load', function() {
+            const loadingScreen = document.getElementById('loading-screen');
+            loadingScreen.style.opacity = '0';
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 1000); // Wait for fade-out transition
+        });
+    </script>
+</body>
+</html>
